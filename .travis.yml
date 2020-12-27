@@ -13,4 +13,4 @@ install:
   
 # Run the unit test
 script:
-  - coverage run tests.py
+  - tests.py
