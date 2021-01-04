@@ -24,6 +24,13 @@ class CalculatorTest(unittest.TestCase):
         testCalculator = Calculator()
         testSum = testCalculator.subtract(x, y)
         self.assertEqual(testSum, 5)
+    
+    def test_multiply(self):
+        x = 3
+        y = 2
+        testCalculator = Calculator()
+        testSum = testCalculator.multiply(x, y)
+        self.assertEqual(testSum, 6)
 
 
 if __name__ == '__main__':
